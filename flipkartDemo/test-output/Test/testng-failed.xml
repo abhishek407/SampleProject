@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test]">
+  <test thread-count="5" name="Simple1(failed)">
+    <parameter name="name" value="manisha"/>
+    <parameter name="url" value="hello"/>
+    <classes>
+      <class name="flipkartDemo.SampleTestNg">
+        <methods>
+          <include name="testBeforeClass"/>
+          <include name="testBeforeMethod"/>
+          <include name="testBeforeSuite"/>
+          <include name="test1"/>
+          <include name="testAfterMethod"/>
+          <include name="testAfterClass"/>
+          <include name="testAfterSuite"/>
+        </methods>
+      </class> <!-- flipkartDemo.SampleTestNg -->
+    </classes>
+  </test> <!-- Simple1(failed) -->
+</suite> <!-- Failed suite [Test] -->

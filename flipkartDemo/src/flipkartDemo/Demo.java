@@ -13,16 +13,10 @@ public class Demo {
 		
 		 abc.get("https://www.facebook.com/"); 
 		 
-		/*
-		 * abc.findElement(By.name("email")).sendKeys("abhishek123");
-		 * Thread.sleep(5000); abc.findElement(By.id("pass")).sendKeys("abhishek");
-		 * Thread.sleep(5000);
-		 * abc.findElement(By.xpath("//input[@value='Log In']")).click();
-		 */
 		 
 		 Thread.sleep(5000);
-		 abc.findElement(By.partialLinkText("Face")).click();
-		 
+		 String xys = abc.findElement(By.xpath("//table/tbody/tr[12]/td[1]")).getText();
+		 System.out.println(xys);
 		/*
 		 * Thread.sleep(7000); driver.quit();
 		 * 

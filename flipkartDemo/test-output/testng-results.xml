@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20176" started-at="2020-03-23T07:59:44 IST" finished-at="2020-03-23T08:00:04 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20176" started-at="2020-03-23T07:59:44 IST" finished-at="2020-03-23T08:00:04 IST">
+      <class name="flipkartDemo.TestNgClass">
+        <test-method status="PASS" signature="firstBrowser()[pri:0, instance:flipkartDemo.TestNgClass@210366b4]" name="firstBrowser" duration-ms="10697" started-at="2020-03-23T07:59:44 IST" finished-at="2020-03-23T07:59:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstBrowser -->
+        <test-method status="PASS" signature="secondBrowser()[pri:0, instance:flipkartDemo.TestNgClass@210366b4]" name="secondBrowser" duration-ms="20107" started-at="2020-03-23T07:59:44 IST" finished-at="2020-03-23T08:00:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondBrowser -->
+      </class> <!-- flipkartDemo.TestNgClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,9 +1,6 @@
 package flipkartDemo;
 
-import org.openqa.selenium.Alert;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.chrome.ChromeDriver;
+	import org.openqa.selenium.chrome.ChromeDriver;
 
 public class AlertsDemo 
 
@@ -34,6 +31,7 @@ public class AlertsDemo
 		 * System.out.println(alert1.getText()); alert.dismiss();
 		 */
 	
+	ChromeDriver driver = new ChromeDriver();
 	
 	}
 }
